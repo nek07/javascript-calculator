@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Windows Calculator</title>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha384-oMZVw7fHDO3I9AB1I/nbPI2D0y6pavJOjz9cWKfph8YU2ttMzZDH2aYF2DG7v9N" crossorigin="anonymous"></script>
+       
+
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <!--Display grid, flex-->
         <!--jQuery syntax-->
-        <script src="jquery-3.7.1.min.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -24,23 +26,24 @@
                 <button class="remove btn">C</button>
                 <button class="remove-one btn"><iconify-icon icon="lucide:delete"></iconify-icon></button>
                 <button class="subs btn">/</button>
-                <button class="seven btn">7</button>
-                <button class="eight btn">8</button>
-                <button class="nine btn">9</button>
-                <button class="mult btn">*</button>
-                <button class="four btn">4</button>
-                <button class="five btn">5</button>
-                <button class="six btn">6</button>
-                <button class="minus btn">-</button>
-                <button class="one btn">1</button>
-                <button class="two btn">2</button>
-                <button class="three btn">3</button>
-                <button class="plus btn">+</button>
-                <button class="zero btn">0</button>
-                <button class="dot btn">,</button>
+                <button class="seven btn num">7</button>
+                <button class="eight btn num">8</button>
+                <button class="nine btn num">9</button>
+                <button class="mult btn operator">*</button>
+                <button class="four btn num">4</button>
+                <button class="five btn num">5</button>
+                <button class="six btn num">6</button>
+                <button class="minus btn operator">-</button>
+                <button class="one btn num">1</button>
+                <button class="two btn num">2</button>
+                <button class="three btn num">3</button>
+                <button class="plus btn operator">+</button>
+                <button class="zero btn num">0</button>
+                <button class="dot btn num">,</button>
                 <button class="result btn">=</button>                
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="script.js">
+        </script>
     </body>
 </html>
