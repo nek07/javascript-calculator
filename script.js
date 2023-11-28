@@ -22,5 +22,12 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
     
-    isZero()
+    document.querySelector('.remove-all').addEventListener('click', function() {
+        
+        process = ""
+        document.querySelector('.pole').textContent = process;
+        if(isZero()==true){
+            document.querySelector('.pole').textContent = 0;
+        }
+    });
 });
