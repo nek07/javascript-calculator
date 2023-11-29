@@ -63,13 +63,14 @@ body {
 }
 .pole {
     display: block;
-    width: 90%;
+    width: 93%;
     height: 70px;
-    padding: 15px;
+    padding: 15px 2%;
     margin:10px 0;
     color:white;
     text-align: right;
     font-size: 4rem;
+    overflow: hidden;
 }
 .header {
     height: 35px;
@@ -81,7 +82,7 @@ body {
 iconify-icon:hover {
     filter: brightness(115%);
 }
-.remove-all, .remove {
+.remove-all, .remove, .x-power, .one-divide-x {
     font-size: 1.5rem;
 
 }
