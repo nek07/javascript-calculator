@@ -30,4 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
             document.querySelector('.pole').textContent = 0;
         }
     });
+    document.querySelector('.remove').addEventListener('click', function() {
+        
+        process = ""
+        document.querySelector('.pole').textContent = process;
+        if(isZero()==true){
+            document.querySelector('.pole').textContent = 0;
+        }
+    });
 });

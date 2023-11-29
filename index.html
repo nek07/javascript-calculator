@@ -4,10 +4,11 @@
         <title>Windows Calculator</title>
         <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha384-oMZVw7fHDO3I9AB1I/nbPI2D0y6pavJOjz9cWKfph8YU2ttMzZDH2aYF2DG7v9N" crossorigin="anonymous"></script>
        
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
         <!--Display grid, flex-->
         <!--jQuery syntax-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -17,27 +18,37 @@
                 <iconify-icon icon="ic:round-history" width="2.2rem" height="2.2rem"></iconify-icon>
                 <iconify-icon icon="ph:x-square-light"  width="2.2rem" height="2.2rem"></iconify-icon>
             </div>
+            
             <div class="pole">
                 0
             </div>
+            <div class="temp-pole">
+
+            </div>
             <div class="buttons">
-                <button class="percent btn">%</button>
+                <button class="percent btn"><iconify-icon icon="gg:math-percent"></iconify-icon></button>
                 <button class="remove-all btn">CE</button>
                 <button class="remove btn">C</button>
                 <button class="remove-one btn"><iconify-icon icon="lucide:delete"></iconify-icon></button>
-                <button class="subs btn">/</button>
+                <button class="one-divide-x btn">/</button>
+                <button class="x-power btn">/</button>
+                <button class="x-square btn"><iconify-icon icon="tabler:math"></iconify-icon></button>
+                <button class="subs btn"><iconify-icon icon="gg:math-divide"></iconify-icon></button>
                 <button class="seven btn num">7</button>
                 <button class="eight btn num">8</button>
                 <button class="nine btn num">9</button>
-                <button class="mult btn operator">*</button>
+                <button class="mult btn operator"><iconify-icon icon="gg:math-plus" rotate="90deg"></iconify-icon></button>
+                
                 <button class="four btn num">4</button>
                 <button class="five btn num">5</button>
                 <button class="six btn num">6</button>
-                <button class="minus btn operator">-</button>
+                <button class="minus btn operator"><iconify-icon icon="gg:math-minus"></iconify-icon></button>
+                
                 <button class="one btn num">1</button>
                 <button class="two btn num">2</button>
                 <button class="three btn num">3</button>
-                <button class="plus btn operator">+</button>
+                <button class="plus btn operator"><iconify-icon icon="gg:asterisk"></iconify-icon></button>
+                <button class="pi btn num"><iconify-icon icon="tabler:math-pi"></iconify-icon></button>
                 <button class="zero btn num">0</button>
                 <button class="dot btn num">,</button>
                 <button class="result btn">=</button>                
